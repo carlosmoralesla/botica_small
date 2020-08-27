@@ -2,7 +2,7 @@
 
 This project is development for a small business 
 
-Company: Panda Store.<br>
+Company: Divino Niño.<br>
 
 <br>
 <b>Access:</b><br>
@@ -12,13 +12,13 @@ user password: admin  <br>
 <br><br>
 
 <b>Heroku:</b><br>
-project_name:  apppanda  <br>
+project_name:  vladifarma  <br>
 resources:     ClearDB Mysql  (for database)<br>
 
 <br><br>
 
 <b>Heroku DB:</b><br>
-db_user:  b4e9244ef09c92<br>
-db_pass:  c1f39122<br>
+db_user:  b7ba7ce03c9bdf<br>
+db_pass:  a9a5f9a7<br>
 db_host:  us-cdbr-east-02.cleardb.com<br>
-db_name   heroku_202e23678af4aa5<br>
+db_name   heroku_51f7fb386ce83f5	<br>
