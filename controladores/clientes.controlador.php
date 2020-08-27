@@ -18,12 +18,7 @@ class ControladorClientes{
 
 			   	$tabla = "clientes";
 
-			   	$datos = array("nombre"=>$_POST["nuevoCliente"],
-					           "documento"=>$_POST["nuevoDocumentoId"],
-					           "email"=>$_POST["nuevoEmail"],
-					           "telefono"=>$_POST["nuevoTelefono"],
-					           "direccion"=>$_POST["nuevaDireccion"],
-					           "fecha_nacimiento"=>$_POST["nuevaFechaNacimiento"]);
+			   	$datos = array("nombre"=>$_POST["nuevoCliente"] );
 
 			   	$respuesta = ModeloClientes::mdlIngresarCliente($tabla, $datos);
 
@@ -106,12 +101,7 @@ class ControladorClientes{
 			   	$tabla = "clientes";
 
 			   	$datos = array("id"=>$_POST["idCliente"],
-			   				   "nombre"=>$_POST["editarCliente"],
-					           "documento"=>$_POST["editarDocumentoId"],
-					           "email"=>$_POST["editarEmail"],
-					           "telefono"=>$_POST["editarTelefono"],
-					           "direccion"=>$_POST["editarDireccion"],
-					           "fecha_nacimiento"=>$_POST["editarFechaNacimiento"]);
+			   				   "nombre"=>$_POST["editarCliente"] );
 
 			   	$respuesta = ModeloClientes::mdlEditarCliente($tabla, $datos);
 
