@@ -3,9 +3,9 @@ EDITAR CLIENTE
 =============================================*/
 $(".tablas").on("click", ".btnEditarCliente", function(){
 
-	var idCliente = $(this).attr("idCliente");
+  var idCliente = $(this).attr("idCliente");
 
-	var datos = new FormData();
+  var datos = new FormData();
     datos.append("idCliente", idCliente);
 
     $.ajax({
@@ -19,12 +19,16 @@ $(".tablas").on("click", ".btnEditarCliente", function(){
       dataType:"json",
       success:function(respuesta){
       
-      	   $("#idCliente").val(respuesta["id"]);
-	       $("#editarCliente").val(respuesta["nombre"]);
- 
-	  }
+           $("#idCliente").val(respuesta["id"]);
+         $("#editarCliente").val(respuesta["nombre"]);
+         $("#editarDocumentoId").val(respuesta["documento"]);
+         $("#editarEmail").val(respuesta["email"]);
+         $("#editarTelefono").val(respuesta["telefono"]);
+         $("#editarDireccion").val(respuesta["direccion"]);
+           $("#editarFechaNacimiento").val(respuesta["fecha_nacimiento"]);
+    }
 
-  	})
+    })
 
 })
 
@@ -33,9 +37,9 @@ ELIMINAR CLIENTE
 =============================================*/
 $(".tablas").on("click", ".btnEliminarCliente", function(){
 
-	var idCliente = $(this).attr("idCliente");
-	
-	swal({
+  var idCliente = $(this).attr("idCliente");
+  
+  swal({
         title: '¿Está seguro de borrar el cliente?',
         text: "¡Si no lo está puede cancelar la acción!",
         type: 'warning',
