@@ -39,11 +39,11 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
       <div class="box-header with-border">
   
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario">
+<!--         <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario">
           
           Agregar usuario
 
-        </button>
+        </button> -->
 
       </div>
 

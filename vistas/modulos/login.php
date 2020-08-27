@@ -4,7 +4,7 @@
   
   <div class="login-logo">
 
-    <img src="vistas/img/plantilla/botica.jpg" class="img-responsive">
+    <img src="vistas/img/plantilla/logo_dn.jpg" class="img-responsive">
 
   </div>
 
