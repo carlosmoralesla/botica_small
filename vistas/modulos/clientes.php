@@ -59,8 +59,7 @@ if($_SESSION["perfil"] == "Especial"){
            <th style="width:10px">#</th>
            <th>Nombre</th>
            <th>Documento ID</th>
-           <th>Email</th>
-           <th>Teléfono</th>
+            <th>Teléfono</th>
            <th>Dirección</th>
            <th>Fecha nacimiento</th> 
            <th>Total compras</th>
@@ -92,8 +91,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                     <td>'.$value["documento"].'</td>
 
-                    <td>'.$value["email"].'</td>
-
+ 
                     <td>'.$value["telefono"].'</td>
 
                     <td>'.$value["direccion"].'</td>
@@ -200,20 +198,7 @@ MODAL AGREGAR CLIENTE
 
             </div>
 
-            <!-- ENTRADA PARA EL EMAIL -->
-            
-            <div class="form-group">
-              
-              <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-envelope"></i></span> 
-
-                <input type="email" class="form-control input-lg" name="nuevoEmail" placeholder="Ingresar email" required>
-
-              </div>
-
-            </div>
-
+ 
             <!-- ENTRADA PARA EL TELÉFONO -->
             
             <div class="form-group">
@@ -346,21 +331,7 @@ MODAL EDITAR CLIENTE
               </div>
 
             </div>
-
-            <!-- ENTRADA PARA EL EMAIL -->
-            
-            <div class="form-group">
-              
-              <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-envelope"></i></span> 
-
-                <input type="email" class="form-control input-lg" name="editarEmail" id="editarEmail" required>
-
-              </div>
-
-            </div>
-
+ 
             <!-- ENTRADA PARA EL TELÉFONO -->
             
             <div class="form-group">
