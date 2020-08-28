@@ -89,15 +89,6 @@ if($_SESSION["perfil"] == "Especial"){
 
                     <td>'.$value["nombre"].'</td>
 
-                    <td>'.$value["documento"].'</td>
-
- 
-                    <td>'.$value["telefono"].'</td>
-
-                    <td>'.$value["direccion"].'</td>
-
-                    <td>'.$value["fecha_nacimiento"].'</td>             
-
                     <td>'.$value["compras"].'</td>
 
                     <td>'.$value["ultima_compra"].'</td>
