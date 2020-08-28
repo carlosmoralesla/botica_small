@@ -58,11 +58,6 @@ if($_SESSION["perfil"] == "Especial"){
            
            <th style="width:10px">#</th>
            <th>Nombre</th>
-           <th>Documento ID</th>
-            <th>Teléfono</th>
-           <th>Dirección</th>
-           <th>Fecha nacimiento</th> 
-           <th>Total compras</th>
            <th>Última compra</th>
            <th>Ingreso al sistema</th>
            <th>Acciones</th>
