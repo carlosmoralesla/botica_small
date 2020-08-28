@@ -169,7 +169,36 @@ MODAL AGREGAR PRODUCTO
               
                 <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
 
-                <input type="text" class="form-control input-lg" name="nuevaDescripcion" placeholder="Ingresar descripción" required>
+                <input type="text" class="form-control input-lg" name="nuevaDescripcion" placeholder="Ingresar nombre del producto" required>
+
+              </div>
+
+            </div>
+
+            <!-- ENTRADA PARA LA MARCA -->
+
+             <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
+
+                <input type="text" class="form-control input-lg" name="nuevaMarca" placeholder="Ingresar nombre de la marca" required>
+
+              </div>
+
+            </div>
+
+
+            <!-- ENTRADA PARA LABORATORIO -->
+
+             <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
+
+                <input type="text" class="form-control input-lg" name="nuevoLaboratorio" placeholder="Ingresar nombre del laboratorio" required>
 
               </div>
 
