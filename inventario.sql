@@ -83,6 +83,8 @@ CREATE TABLE `productos` (
   `id_categoria` int(11) NOT NULL,
   `codigo` text COLLATE utf8_spanish_ci NOT NULL,
   `descripcion` text COLLATE utf8_spanish_ci NOT NULL,
+  `marca` text COLLATE utf8_spanish_ci NOT NULL,
+  `laboratorio` text COLLATE utf8_spanish_ci NOT NULL,
   `imagen` text COLLATE utf8_spanish_ci NOT NULL,
   `stock` int(11) NOT NULL,
   `precio_compra` float NOT NULL,

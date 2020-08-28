@@ -57,8 +57,9 @@ if($_SESSION["perfil"] == "Vendedor"){
            
            <th style="width:10px">#</th>
            <th>Imagen</th>
-           <th>Código</th>
            <th>Descripción</th>
+           <th>Marca</th>
+           <th>Laboratorio</th>
            <th>Categoría</th>
            <th>Stock</th>
            <th>Precio de compra</th>
@@ -149,7 +150,7 @@ MODAL AGREGAR PRODUCTO
 
             <!-- ENTRADA PARA EL CÓDIGO -->
             
-            <div class="form-group">
+            <div class="form-group" style="display: none;">
               
               <div class="input-group">
               
