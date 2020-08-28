@@ -221,7 +221,7 @@ MODAL AGREGAR PRODUCTO
 
                   <!-- CHECKBOX PARA PORCENTAJE -->
 
-                  <div class="col-xs-6">
+                  <div class="col-xs-6" style="display:none;">
                     
                     <div class="form-group">
                       
@@ -237,11 +237,11 @@ MODAL AGREGAR PRODUCTO
 
                   <!-- ENTRADA PARA PORCENTAJE -->
 
-                  <div class="col-xs-6" style="padding:0">
+                  <div class="col-xs-6" style="display:none;">
                     
                     <div class="input-group">
                       
-                      <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="40" required>
+                      <input type="number" class="form-control input-lg nuevoPorcentaje" min="0" value="40"  >
 
                       <span class="input-group-addon"><i class="fa fa-percent"></i></span>
 
