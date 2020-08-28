@@ -407,6 +407,34 @@ MODAL EDITAR PRODUCTO
 
             </div>
 
+            <!-- ENTRADA PARA LA MARCA -->
+
+             <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
+
+                <input type="text" class="form-control input-lg" id="editarMarca" name="editarMarca" required>
+
+              </div>
+
+            </div>
+
+            <!-- ENTRADA PARA LA MARCA -->
+
+             <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
+
+                <input type="text" class="form-control input-lg" id="editarLaboratorio" name="editarLaboratorio" required>
+
+              </div>
+
+            </div>
+
              <!-- ENTRADA PARA STOCK -->
 
              <div class="form-group">
@@ -453,7 +481,7 @@ MODAL EDITAR PRODUCTO
 
                   <!-- CHECKBOX PARA PORCENTAJE -->
 
-                  <div class="col-xs-6">
+                  <div class="col-xs-6" style="display:none;">
                     
                     <div class="form-group">
                       
@@ -469,7 +497,7 @@ MODAL EDITAR PRODUCTO
 
                   <!-- ENTRADA PARA PORCENTAJE -->
 
-                  <div class="col-xs-6" style="padding:0">
+                  <div class="col-xs-6" style="display:none;">
                     
                     <div class="input-group">
                       
