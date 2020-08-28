@@ -227,7 +227,7 @@ MODAL AGREGAR PRODUCTO
                       
                       <label>
                         
-                        <input type="checkbox" class="minimal porcentaje" checked>
+                        <input type="checkbox" class="minimal porcentaje"  >
                         Utilizar procentaje
                       </label>
 
@@ -429,7 +429,7 @@ MODAL EDITAR PRODUCTO
                       
                       <label>
                         
-                        <input type="checkbox" class="minimal porcentaje" checked>
+                        <input type="checkbox" class="minimal porcentaje"  >
                         Utilizar procentaje
                       </label>
 
