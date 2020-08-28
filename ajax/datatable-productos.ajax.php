@@ -85,6 +85,8 @@ class TablaProductos{
 			      "'.($i+1).'",
 			      "'.$imagen.'",
  			      "'.$productos[$i]["descripcion"].'",
+ 			      "'.$productos[$i]["marca"].'",
+ 			      "'.$productos[$i]["laboratorio"].'",
 			      "'.$categorias["categoria"].'",
 			      "'.$stock.'",
 			      "'.$productos[$i]["precio_compra"].'",

@@ -150,7 +150,7 @@ MODAL AGREGAR PRODUCTO
 
             <!-- ENTRADA PARA EL CÓDIGO -->
             
-            <div class="form-group" style="display: none;">
+            <div class="form-group" style="display: ">
               
               <div class="input-group">
               
