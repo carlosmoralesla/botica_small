@@ -64,7 +64,7 @@
                 ENTRADA DEL VENDEDOR
                 ======================================-->
             
-                <div class="form-group">
+                <div class="form-group" style="display:none">
                 
                   <div class="input-group">
                     
@@ -82,7 +82,7 @@
                 ENTRADA DEL CÓDIGO
                 ======================================--> 
 
-                <div class="form-group">
+                <div class="form-group" style="display:none;">
                   
                   <div class="input-group">
                     
@@ -207,14 +207,14 @@
                   ENTRADA IMPUESTOS Y TOTAL
                   ======================================-->
                   
-                  <div class="col-xs-8 pull-right">
+                  <div class="col-xl-8 pull-right">
                     
                     <table class="table">
 
                       <thead>
 
                         <tr>
-                          <th>Impuesto</th>
+                          <th><font color="#fff">Impuesto</font></th>
                           <th>Total</th>      
                         </tr>
 
@@ -226,7 +226,7 @@
                           
                           <td style="width: 50%">
                             
-                            <div class="input-group">
+                            <div class="input-group" style="display:none;">
                            
                               <input type="number" class="form-control input-lg" min="0" id="nuevoImpuestoVenta" name="nuevoImpuestoVenta" value="<?php echo $porcentajeImpuesto; ?>" required>
 
@@ -271,7 +271,7 @@
                 ENTRADA MÉTODO DE PAGO
                 ======================================-->
 
-                <div class="form-group row">
+                <div class="form-group row" style="display:none;">
                   
                   <div class="col-xs-6" style="padding-right:0px">
                     
@@ -279,7 +279,7 @@
                   
                       <select class="form-control" id="nuevoMetodoPago" name="nuevoMetodoPago" required>
                         <option value="">Seleccione método de pago</option>
-                        <option value="Efectivo">Efectivo</option>
+                        <option value="Efectivo" selected="">Efectivo</option>
                         <option value="TC">Tarjeta Crédito</option>
                         <option value="TD">Tarjeta Débito</option>                  
                       </select>    
