@@ -64,7 +64,6 @@ if($_SESSION["perfil"] == "Vendedor"){
            <th>Stock</th>
            <th>Precio de compra</th>
            <th>Precio de venta</th>
-           <th>Agregado</th>
            <th>Acciones</th>
            
          </tr> 
@@ -248,7 +247,7 @@ MODAL AGREGAR PRODUCTO
                   
                     <span class="input-group-addon"><i class="fa fa-arrow-up"></i></span> 
 
-                    <input type="number" class="form-control input-lg" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="Precio de compra" required>
+                    <input type="number" class="form-control input-lg" id="nuevoPrecioCompra" name="nuevoPrecioCompra" step="any" min="0" placeholder="P.Compra" required>
 
                   </div>
 
@@ -262,7 +261,7 @@ MODAL AGREGAR PRODUCTO
                   
                     <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
 
-                    <input type="number" class="form-control input-lg" id="nuevoPrecioVenta" name="nuevoPrecioVenta" step="any" min="0" placeholder="Precio de venta" required>
+                    <input type="number" class="form-control input-lg" id="nuevoPrecioVenta" name="nuevoPrecioVenta" step="any" min="0" placeholder="P.Venta" required>
 
                   </div>
                 
@@ -379,7 +378,6 @@ MODAL EDITAR PRODUCTO
 
           <div class="box-body">
 
-
             <!-- ENTRADA PARA SELECCIONAR CATEGORÍA -->
 
             <div class="form-group">
@@ -391,6 +389,24 @@ MODAL EDITAR PRODUCTO
                 <select class="form-control input-lg"  name="editarCategoria" readonly required>
                   
                   <option id="editarCategoria"></option>
+
+                </select>
+
+              </div>
+
+            </div>
+
+            <!-- ENTRADA PARA SELECCIONAR TIPO -->
+
+            <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-th"></i></span> 
+
+                <select class="form-control input-lg"  name="editarTipo" readonly required>
+                  
+                  <option id="editarTipo"></option>
 
                 </select>
 
@@ -426,21 +442,7 @@ MODAL EDITAR PRODUCTO
 
             </div>
 
-            <!-- ENTRADA PARA LA MARCA -->
-
-             <div class="form-group">
-              
-              <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
-
-                <input type="text" class="form-control input-lg" id="editarMarca" name="editarMarca" required>
-
-              </div>
-
-            </div>
-
-            <!-- ENTRADA PARA LA MARCA -->
+            <!-- ENTRADA PARA EL LABORATORIO -->
 
              <div class="form-group">
               
