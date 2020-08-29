@@ -209,37 +209,37 @@ $(".tablaProductos tbody").on("click", "button.btnEditarProducto", function(){
 	var datos = new FormData();
     datos.append("idProducto", idProducto);
 
-     $.ajax({
+    $.ajax({
 
-      url:"ajax/productos.ajax.php",
-      method: "POST",
-      data: datos,
-      cache: false,
-      contentType: false,
-      processData: false,
-      dataType:"json",
-      success:function(respuesta){
-          
-          var datosCategoria = new FormData();
-          datosCategoria.append("idCategoria",respuesta["id_categoria"]);
+	      url:"ajax/productos.ajax.php",
+	      method: "POST",
+	      data: datos,
+	      cache: false,
+	      contentType: false,
+	      processData: false,
+	      dataType:"json",
+	      success:function(respuesta){
+	          
+	        var datosCategoria = new FormData();
+	        datosCategoria.append("idCategoria",respuesta["id_categoria"]);
 
-           $.ajax({
+	        $.ajax({
 
-              url:"ajax/categorias.ajax.php",
-              method: "POST",
-              data: datosCategoria,
-              cache: false,
-              contentType: false,
-              processData: false,
-              dataType:"json",
-              success:function(respuesta){
-                  
-                  $("#editarCategoria").val(respuesta["id"]);
-                  $("#editarCategoria").html(respuesta["categoria"]);
+	              url:"ajax/categorias.ajax.php",
+	              method: "POST",
+	              data: datosCategoria,
+	              cache: false,
+	              contentType: false,
+	              processData: false,
+	              dataType:"json",
+	              success:function(respuesta){
+	                  
+	                  $("#editarCategoria").val(respuesta["id"]);
+	                  $("#editarCategoria").html(respuesta["categoria"]);
 
-              }
+	              }
 
-          })
+	        })
 
            
            $("#editarCodigo").val(respuesta["codigo"]);
@@ -262,9 +262,9 @@ $(".tablaProductos tbody").on("click", "button.btnEditarProducto", function(){
 
            }
 
-      }
+        }
 
-  })
+   })
 
 })
 
