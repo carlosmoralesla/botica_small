@@ -58,9 +58,9 @@ if($_SESSION["perfil"] == "Vendedor"){
            <th style="width:10px">#</th>
            <th>Imagen</th>
            <th>Descripción</th>
-           <th>Marca</th>
-           <th>Laboratorio</th>
+           <th>Tipo</th>
            <th>Categoría</th>
+           <th>Laboratorio</th>
            <th>Stock</th>
            <th>Precio de compra</th>
            <th>Precio de venta</th>
@@ -148,6 +148,39 @@ MODAL AGREGAR PRODUCTO
 
             </div>
 
+            <!-- ENTRADA PARA SELECCIONAR TIPO -->
+
+            <div class="form-group">
+              
+              <div class="input-group">
+              
+                <span class="input-group-addon"><i class="fa fa-th"></i></span> 
+
+                <select class="form-control input-lg" id="nuevoTipo" name="nuevoTipo" required>
+                  
+                  <option value="">Selecionar tipo</option>
+
+                  <?php
+
+                  $item = null;
+                  $valor = null;
+
+                  $categorias = ControladorTipos::ctrMostrarTipos($item, $valor);
+
+                  foreach ($tipos as $key => $value) {
+                    
+                    echo '<option value="'.$value["id"].'">'.$value["tipo"].'</option>';
+                  }
+
+                  ?>
+  
+                </select>
+
+              </div>
+
+            </div>
+
+
             <!-- ENTRADA PARA EL CÓDIGO -->
             
             <div class="form-group" style="display: ">
@@ -171,20 +204,6 @@ MODAL AGREGAR PRODUCTO
                 <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
 
                 <input type="text" class="form-control input-lg" name="nuevaDescripcion" placeholder="Ingresar nombre del producto" required>
-
-              </div>
-
-            </div>
-
-            <!-- ENTRADA PARA LA MARCA -->
-
-             <div class="form-group">
-              
-              <div class="input-group">
-              
-                <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span> 
-
-                <input type="text" class="form-control input-lg" name="nuevaMarca" placeholder="Ingresar nombre de la marca" required>
 
               </div>
 

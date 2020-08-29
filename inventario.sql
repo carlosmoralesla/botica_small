@@ -57,7 +57,6 @@ INSERT INTO `categorias` (`id`, `categoria`, `fecha`) VALUES
 CREATE TABLE `tipos` (
   `id` int(11) NOT NULL,
   `tipo` text COLLATE utf8_spanish_ci NOT NULL,
-  `fechacompra` date NOT NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -176,6 +175,13 @@ CREATE TABLE `ventas` (
 ALTER TABLE `categorias`
   ADD PRIMARY KEY (`id`);
 
+
+--
+-- Indices de la tabla `tipos`
+--
+ALTER TABLE `tipos`
+  ADD PRIMARY KEY (`id`);
+
 --
 -- Indices de la tabla `clientes`
 --
@@ -209,6 +215,12 @@ ALTER TABLE `ventas`
 --
 ALTER TABLE `categorias`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT de la tabla `tipos`
+--
+ALTER TABLE `tipos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `clientes`
