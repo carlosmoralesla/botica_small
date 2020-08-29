@@ -198,7 +198,7 @@ if($_SESSION["perfil"] == "Especial"){
                       
                         <tr>
                           
-                          <td style="width: 50%;display:none;">
+                          <td style="width: 50%">
                             
                             <div class="input-group">
                            
@@ -216,7 +216,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                            <td style="width: 50%">
                             
-                            <div class="input-group" style="display:none;">
+                            <div class="input-group">
                            
                               <span class="input-group-addon"><i><b>S/.</b></i></span>
 
