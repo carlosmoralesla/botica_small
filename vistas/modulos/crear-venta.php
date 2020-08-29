@@ -188,7 +188,7 @@ if($_SESSION["perfil"] == "Especial"){
                       <thead>
 
                         <tr>
-                          <th style="display:none;">Impuesto</th>
+                          <th><font color="#fff">Impuesto</font></th>
                           <th>Total</th>      
                         </tr>
 
@@ -216,7 +216,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                            <td style="width: 50%">
                             
-                            <div class="input-group">
+                            <div class="input-group" style="display:none;">
                            
                               <span class="input-group-addon"><i><b>S/.</b></i></span>
 
