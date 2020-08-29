@@ -65,19 +65,7 @@ class ControladorTipos{
 
 	}
 
-	/*=============================================
-	MOSTRAR TIPOS
-	=============================================*/
-
-	static public function ctrMostrarTipos($item, $valor){
-
-		$tabla = "tipos";
-
-		$respuesta = ModeloTipos::mdlMostrarTipos($tabla, $item, $valor);
-
-		return $respuesta;
-	
-	}
+ 
 
 	/*=============================================
 	MOSTRAR TIPOS
