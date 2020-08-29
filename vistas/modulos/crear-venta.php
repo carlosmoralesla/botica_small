@@ -266,7 +266,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                 </div>
 
-                <br>
+                
       
               </div>
 
