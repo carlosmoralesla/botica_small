@@ -127,7 +127,7 @@ $(".tablaVentas tbody").on("click", "button.agregarProducto", function(){
 
 	            '<div class="input-group">'+
 
-	              '<span class="input-group-addon"><i><b>S/.</b></i></span>'+
+	               
 	                 
 	              '<input type="text" class="form-control nuevoPrecioProducto" onchange="cambios()" precioReal="'+precio+'" name="nuevoPrecioProducto" value="'+precio+'" required>'+
 	 
@@ -557,7 +557,7 @@ $("#nuevoMetodoPago").change(function(){
 
 			 	'<div class="input-group">'+ 
 
-			 		'<span class="input-group-addon"><i><b>S/.</b></i></span>'+ 
+			 		
 
 			 		'<input type="text" class="form-control" id="nuevoValorEfectivo" placeholder="000000" required>'+
 
@@ -569,7 +569,7 @@ $("#nuevoMetodoPago").change(function(){
 
 			 	'<div class="input-group">'+
 
-			 		'<span class="input-group-addon"><i><b>S/.</b></i></span>'+
+			 		 
 
 			 		'<input type="text" class="form-control" id="nuevoCambioEfectivo" placeholder="000000" readonly required>'+
 
