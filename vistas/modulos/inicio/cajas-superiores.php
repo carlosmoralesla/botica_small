@@ -33,7 +33,7 @@ $totalProductos = count($productos);
     
     <div class="icon">
       
-      <i class="ion ion-social-usd"></i>
+      <i><b>S/.</b></i>
     
     </div>
     
