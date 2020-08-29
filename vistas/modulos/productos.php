@@ -165,7 +165,7 @@ MODAL AGREGAR PRODUCTO
                   $item = null;
                   $valor = null;
 
-                  $categorias = ControladorTipos::ctrMostrarTipos($item, $valor);
+                  $tipos = ControladorTipos::ctrMostrarTipos($item, $valor);
 
                   foreach ($tipos as $key => $value) {
                     
