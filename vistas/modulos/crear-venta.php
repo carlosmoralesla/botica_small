@@ -200,7 +200,7 @@ if($_SESSION["perfil"] == "Especial"){
                           
                           <td style="width: 50%">
                             
-                            <div class="input-group">
+                            <div class="input-group">2
                            
                               <input type="number" class="form-control input-lg" min="0" id="nuevoImpuestoVenta" name="nuevoImpuestoVenta" placeholder="0" required>
 
