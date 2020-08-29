@@ -161,7 +161,6 @@ if($_SESSION["perfil"] == "Especial"){
 
                 <div class="form-group row nuevoProducto">
 
-                
 
                 </div>
 
@@ -245,7 +244,7 @@ if($_SESSION["perfil"] == "Especial"){
                 ENTRADA MÉTODO DE PAGO
                 ======================================-->
 
-                <div class="form-group row">
+                <div class="form-group row" style="display: none;">
                   
                   <div class="col-xs-6" style="padding-right:0px">
                     
