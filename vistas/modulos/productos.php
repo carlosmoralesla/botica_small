@@ -158,18 +158,18 @@ MODAL AGREGAR PRODUCTO
 
                 <select class="form-control input-lg" id="nuevoTipo" name="nuevoTipo" required>
                   
-                  <option value="">Selecionar tipo</option>
+                  <option value="">Selecionar tipo2</option>
 
                   <?php
 
-                  $item = null;
-                  $valor = null;
+                  $item2 = null;
+                  $valor2 = null;
 
-                  $tipos = ControladorTipos::ctrMostrarTipos($item, $valor);
+                  $tipos = ControladorTipos::ctrMostrarTipos($item2, $valor2);
 
-                  foreach ($tipos as $key => $value) {
+                  foreach ($tipos as $key2 => $value2) {
                     
-                    echo '<option value="'.$value["id"].'">'.$value["tipo"].'</option>';
+                    echo '<option value="'.$value2["id"].'">'.$value2["tipo"].'</option>';
                   }
 
                   ?>
