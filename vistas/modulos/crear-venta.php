@@ -214,7 +214,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                           </td>
 
-                           <td style="width: 50%">
+                           <td style="width: 50%">3
                             
                             <div class="input-group">
                            
