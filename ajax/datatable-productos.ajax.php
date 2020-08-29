@@ -6,6 +6,9 @@ require_once "../modelos/productos.modelo.php";
 require_once "../controladores/categorias.controlador.php";
 require_once "../modelos/categorias.modelo.php";
 
+require_once "../controladores/tipos.controlador.php";
+require_once "../modelos/tipos.modelo.php";
+
 
 class TablaProductos{
 
@@ -16,9 +19,12 @@ class TablaProductos{
 	public function mostrarTablaProductos(){
 
 		$item = null;
-    	$valor = null;
+		$valor = null;
     	$orden = "id";
 
+		$item2 = null;
+    	$valor2 = null;
+ 
   		$productos = ControladorProductos::ctrMostrarProductos($item, $valor, $orden);	
 
   		if(count($productos) == 0){
@@ -47,6 +53,15 @@ class TablaProductos{
 		  	$valor = $productos[$i]["id_categoria"];
 
 		  	$categorias = ControladorCategorias::ctrMostrarCategorias($item, $valor);
+
+		  	/*=============================================
+ 	 		TRAEMOS EL TIPO
+  			=============================================*/ 
+
+		  	$item2 = "id";
+		  	$valor2 = $productos[$i]["id_tipo"];
+
+		  	$tipos = ControladorTipos::ctrMostrarTipos($item2, $valor2);
 
 		  	/*=============================================
  	 		STOCK
@@ -85,9 +100,9 @@ class TablaProductos{
 			      "'.($i+1).'",
 			      "'.$imagen.'",
  			      "'.$productos[$i]["descripcion"].'",
- 			      "'.$productos[$i]["marca"].'",
- 			      "'.$productos[$i]["laboratorio"].'",
-			      "'.$categorias["categoria"].'",
+ 			      "'.$categorias["categoria"].'",
+ 			      "'.$tipos["tipo"].'",
+ 			      "'.$productos[$i]["laboratorio"].'",			      
 			      "'.$stock.'",
 			      "'.$productos[$i]["precio_compra"].'",
 			      "'.$productos[$i]["precio_venta"].'",

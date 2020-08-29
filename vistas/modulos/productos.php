@@ -126,7 +126,7 @@ MODAL AGREGAR PRODUCTO
 
                 <select class="form-control input-lg" id="nuevaCategoria" name="nuevaCategoria" required>
                   
-                  <option value="">Selecionar categoría</option>
+                  <option value="">Selecionar categoría2</option>
 
                   <?php
 
@@ -158,7 +158,7 @@ MODAL AGREGAR PRODUCTO
 
                 <select class="form-control input-lg" id="nuevoTipo" name="nuevoTipo" required>
                   
-                  <option value="">Selecionar tipo2</option>
+                  <option value="">Selecionar tipo</option>
 
                   <?php
 
