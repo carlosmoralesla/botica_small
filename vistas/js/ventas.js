@@ -321,7 +321,7 @@ $(".btnAgregarProducto").click(function(){
 
 	              '<span class="input-group-addon"><i><b>S/.</b></i></span>'+
 	                 
-	              '<input type="text" class="form-control nuevoPrecioProducto" precioReal="" name="nuevoPrecioProducto"  required>'+
+	              '<input type="text" class="form-control nuevoPrecioProducto" precioReal="" name="nuevoPrecioProducto" readonly required>'+
 	 
 	            '</div>'+
 	             
