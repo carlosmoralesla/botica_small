@@ -381,7 +381,7 @@ MODAL EDITAR PRODUCTO
 
             <!-- ENTRADA PARA EL CÓDIGO -->
             
-            <div class="form-group">
+            <div class="form-group" style="display:none;">
               
               <div class="input-group">
               

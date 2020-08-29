@@ -51,6 +51,22 @@ INSERT INTO `categorias` (`id`, `categoria`, `fecha`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `tipos`
+--
+
+CREATE TABLE `tipos` (
+  `id` int(11) NOT NULL,
+  `tipo` text COLLATE utf8_spanish_ci NOT NULL,
+  `fechacompra` date NOT NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `clientes`
 --
 
