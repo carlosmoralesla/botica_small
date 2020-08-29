@@ -47,6 +47,18 @@
 
 			<li>
 
+				<a href="tipos">
+
+					<i class="fa fa-certificate"></i>
+					<span>Tipos</span>
+
+				</a>
+
+			</li>
+
+
+			<li>
+
 				<a href="productos">
 
 					<i class="fa fa-product-hunt"></i>

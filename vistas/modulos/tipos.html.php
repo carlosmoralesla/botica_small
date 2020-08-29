@@ -4,7 +4,7 @@
     
     <h1>
       
-      Administrar categorías
+      Administrar tipos
     
     </h1>
 
@@ -12,7 +12,7 @@
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar categorías</li>
+      <li class="active">Administrar tipos</li>
     
     </ol>
 
@@ -24,9 +24,9 @@
 
       <div class="box-header with-border">
   
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCategoria">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarTipo">
           
-          Agregar categoría
+          Agregar tipo
 
         </button>
 
@@ -41,7 +41,7 @@
          <tr>
            
            <th style="width:10px">#</th>
-           <th>Categoria</th>
+           <th>Tipo</th>
            <th>Acciones</th>
 
          </tr> 
@@ -123,10 +123,10 @@
 </div>
 
 <!--=====================================
-MODAL AGREGAR USUARIO
+MODAL AGREGAR TIPO
 ======================================-->
 
-<div id="modalAgregarCategoria" class="modal fade" role="dialog">
+<div id="modalAgregarTipo" class="modal fade" role="dialog">
   
   <div class="modal-dialog">
 
@@ -142,7 +142,7 @@ MODAL AGREGAR USUARIO
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Agregar categoría</h4>
+          <h4 class="modal-title">Agregar tipo</h4>
 
         </div>
 
@@ -162,7 +162,7 @@ MODAL AGREGAR USUARIO
               
                 <span class="input-group-addon"><i class="fa fa-th"></i></span> 
 
-                <input type="text" class="form-control input-lg" name="nuevaCategoria" placeholder="Ingresar categoría" required>
+                <input type="text" class="form-control input-lg" name="nuevoTipo" placeholder="Ingresar tipo" required>
 
               </div>
 
@@ -180,7 +180,7 @@ MODAL AGREGAR USUARIO
 
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Salir</button>
 
-          <button type="submit" class="btn btn-primary">Guardar categoría</button>
+          <button type="submit" class="btn btn-primary">Guardar tipo</button>
 
         </div>
 
