@@ -59,7 +59,7 @@ class TablaProductos{
   			=============================================*/ 
 
 		  	$item2 = "id";
-		  	$valor2 = $tipos[$i]["id_tipo"];
+		  	$valor2 = $productos[$i]["id_tipo"];
 
 		  	$tipos = ControladorTipos::ctrMostrarTipos($item2, $valor2);
 
