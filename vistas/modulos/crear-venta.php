@@ -181,14 +181,14 @@ if($_SESSION["perfil"] == "Especial"){
                   ENTRADA IMPUESTOS Y TOTAL
                   ======================================-->
                   
-                  <div class="col-xs-8 pull-right">
+                  <div class="col-xl-8 pull-right">
                     
                     <table class="table">
 
                       <thead>
 
                         <tr>
-                          <th>Impuesto</th>
+                          <th style="display:none;">Impuesto</th>
                           <th>Total</th>      
                         </tr>
 
@@ -198,7 +198,7 @@ if($_SESSION["perfil"] == "Especial"){
                       
                         <tr>
                           
-                          <td style="width: 50%">
+                          <td style="width: 50%;display:none;">
                             
                             <div class="input-group">
                            
