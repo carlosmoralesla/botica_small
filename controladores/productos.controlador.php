@@ -101,9 +101,9 @@ class ControladorProductos{
 				$tabla = "productos";
 
 				$datos = array("id_categoria" => $_POST["nuevaCategoria"],
+							   "id_tipo" => $_POST["nuevoTipo"],
 							   "codigo" => $_POST["nuevoCodigo"],
-							   "descripcion" => $_POST["nuevaDescripcion"],
-							   "marca" => $_POST["nuevaMarca"],
+							   "descripcion" => $_POST["nuevaDescripcion"],				   
 							   "laboratorio" => $_POST["nuevoLaboratorio"],
 							   "stock" => $_POST["nuevoStock"],
 							   "precio_compra" => $_POST["nuevoPrecioCompra"],
@@ -252,9 +252,9 @@ class ControladorProductos{
 				$tabla = "productos";
 
 				$datos = array("id_categoria" => $_POST["editarCategoria"],
+							   "id_tipo" => $_POST["editarTipo"],
 							   "codigo" => $_POST["editarCodigo"],
-							   "descripcion" => $_POST["editarDescripcion"],
-							   "marca" => $_POST["editarMarca"],
+							   "descripcion" => $_POST["editarDescripcion"],		   
 							   "laboratorio" => $_POST["editarLaboratorio"],
 							   "stock" => $_POST["editarStock"],
 							   "precio_compra" => $_POST["editarPrecioCompra"],
