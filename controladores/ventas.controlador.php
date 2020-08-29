@@ -119,8 +119,9 @@ class ControladorVentas{
 						   "productos"=>$_POST["listaProductos"],
 						   "impuesto"=>$_POST["nuevoPrecioImpuesto"],
 						   "neto"=>$_POST["nuevoPrecioNeto"],
-						   "total"=>$_POST["totalVenta"],
-						   "metodo_pago"=>$_POST["listaMetodoPago"]);
+						   "total"=>$_POST["totalVenta"]
+						   //"metodo_pago"=>$_POST["listaMetodoPago"]
+						);
 
 			$respuesta = ModeloVentas::mdlIngresarVenta($tabla, $datos);
 
@@ -377,8 +378,9 @@ class ControladorVentas{
 						   "productos"=>$listaProductos,
 						   "impuesto"=>$_POST["nuevoPrecioImpuesto"],
 						   "neto"=>$_POST["nuevoPrecioNeto"],
-						   "total"=>$_POST["totalVenta"],
-						   "metodo_pago"=>$_POST["listaMetodoPago"]);
+						   "total"=>$_POST["totalVenta"]
+						   //"metodo_pago"=>$_POST["listaMetodoPago"]
+						);
 
 
 			$respuesta = ModeloVentas::mdlEditarVenta($tabla, $datos);
