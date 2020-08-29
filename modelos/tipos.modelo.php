@@ -37,7 +37,7 @@ class ModeloTipos{
 
 		if($item != null){
 
-			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item ORDER BY tipo ASC");
 
 			$stmt -> bindParam(":".$item, $valor, PDO::PARAM_STR);
 
