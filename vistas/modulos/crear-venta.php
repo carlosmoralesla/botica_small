@@ -200,13 +200,13 @@ if($_SESSION["perfil"] == "Especial"){
                           
                           <td style="width: 50%">
                             
-                            <div class="input-group">2
+                            <div class="input-group">
                            
                               <input type="number" class="form-control input-lg" min="0" id="nuevoImpuestoVenta" name="nuevoImpuestoVenta" placeholder="0" required>
 
                                <input type="hidden" name="nuevoPrecioImpuesto" id="nuevoPrecioImpuesto" required>
 
-                               <input type="hidden" name="nuevoPrecioNeto" id="nuevoPrecioNeto" required>
+                               <input type="hidden" name="nuevoPrecioNeto" id="nuevoPrecioNeto" value="0"required >
 
                               <span class="input-group-addon"><i class="fa fa-percent"></i></span>
                         
@@ -214,13 +214,13 @@ if($_SESSION["perfil"] == "Especial"){
 
                           </td>
 
-                           <td style="width: 50%">3
+                           <td style="width: 50%">
                             
                             <div class="input-group">
                            
                               <span class="input-group-addon"><i class="ion ion-social-usd"></i></span>
 
-                              <input type="text" class="form-control input-lg" id="nuevoTotalVenta" name="nuevoTotalVenta" total="" placeholder="00000" readonly required>
+                              <input type="text" class="form-control input-lg" id="nuevoTotalVenta" name="nuevoTotalVenta" total="" placeholder="00000"  required>
 
                               <input type="hidden" name="totalVenta" id="totalVenta">
                               
