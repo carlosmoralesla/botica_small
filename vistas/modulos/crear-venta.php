@@ -161,6 +161,39 @@ if($_SESSION["perfil"] == "Especial"){
 
                 <div class="form-group row nuevoProducto">
 
+                      <div class="row" style="padding:5px 15px">
+            
+                        <div class="col-xs-6" style="padding-right:0px">
+            
+                          <div class="input-group">
+                
+                            <span class="input-group-addon"><button type="button" class="btn btn-danger btn-xs quitarProducto" idproducto="141"><i class="fa fa-times"></i></button></span>
+
+                            <input type="text" class="form-control nuevaDescripcionProducto" value="Producto" readonly="" required="">
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+              
+                          <input type="text" class="form-control nuevaCantidadProducto" value="Cantidad" readonly="" required="">
+
+                        </div>
+
+                        <div class="col-xs-3 ingresoPrecio" style="padding-left:0px">
+
+                          <div class="input-group">
+
+                            <span class="input-group-addon"><i><b>S/.</b></i></span>
+                   
+                            <input type="text" class="form-control nuevoPrecioProducto"  value="Precio" readonly="" required="">
+   
+                          </div>
+               
+                        </div>
+
+                      </div>
 
                 </div>
 
