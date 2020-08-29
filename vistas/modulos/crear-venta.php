@@ -167,9 +167,8 @@ if($_SESSION["perfil"] == "Especial"){
             
                           <div class="input-group">
                 
-                            <span class="input-group-addon"><button type="button" class="btn btn-sucess btn-xs" idproducto="141"><i class="fa fa-times"></i></button></span>
-
-                            <input type="text" class="form-control" value="Producto" readonly="" required="">
+ 
+                            <input type="text" class="form-control" value="Producto" readonly="">
 
                           </div>
 
@@ -177,7 +176,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                         <div class="col-xs-3">
               
-                          <input type="text" class="form-control" value="Cantidad" readonly="" required="">
+                          <input type="text" class="form-control" value="Cantidad" readonly="">
 
                         </div>
 
@@ -185,9 +184,7 @@ if($_SESSION["perfil"] == "Especial"){
 
                           <div class="input-group">
 
-                            <span class="input-group-addon" readonly=""><i><b>S/.</b></i></span>
-                   
-                            <input type="text" class="form-control"  value="Precio" readonly="" required="">
+                            <input type="text" class="form-control"  value="Precio (S/.)" readonly="">
    
                           </div>
                
@@ -250,7 +247,7 @@ if($_SESSION["perfil"] == "Especial"){
                             
                             <div class="input-group">
                            
-                              
+                              <span class="input-group-addon"><i><b>S/.</b></i></span>
 
                               <input type="text" class="form-control input-lg" id="nuevoTotalVenta" name="nuevoTotalVenta" total="" placeholder="00000"  required>
 

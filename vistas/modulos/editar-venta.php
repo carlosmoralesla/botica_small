@@ -137,6 +137,38 @@
 
                 <div class="form-group row nuevoProducto">
 
+                      <div class="row" style="padding:5px 15px">
+            
+                        <div class="col-xs-6" style="padding-right:0px">
+            
+                          <div class="input-group">
+                
+ 
+                            <input type="text" class="form-control" value="Producto" readonly="">
+
+                          </div>
+
+                        </div>
+
+                        <div class="col-xs-3">
+              
+                          <input type="text" class="form-control" value="Cantidad" readonly="">
+
+                        </div>
+
+                        <div class="col-xs-3" style="padding-left:0px">
+
+                          <div class="input-group">
+
+                            <input type="text" class="form-control"  value="Precio (S/.)" readonly="">
+   
+                          </div>
+               
+                        </div>
+
+                      </div>
+
+
                 <?php
 
                 $listaProducto = json_decode($venta["productos"], true);
@@ -175,8 +207,6 @@
 
                           <div class="input-group">
 
-                            <span class="input-group-addon"><i><b>S/.</b></i></span>
-                   
                             <input type="text" class="form-control nuevoPrecioProducto" precioReal="'.$respuesta["precio_venta"].'" name="nuevoPrecioProducto" value="'.$value["total"].'"  required>
    
                           </div>
